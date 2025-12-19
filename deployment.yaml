@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: medical-noshow-api
+  name: medical-noshow-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: medical-noshow-api
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: medical-noshow-api
+    spec:
+      containers:
+      - image: menna11/medical-noshow-api:latest
+        name: medical-noshow-api
+        ports:
+        - containerPort: 8000
+        resources: {}
+status: {}
