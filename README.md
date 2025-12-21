@@ -1,6 +1,6 @@
 # Predicting Medical Appointment No-Shows
 
-> A smart system that helps hospitals predict which patients might miss their appointments
+ A smart system that helps hospitals predict which patients might miss their appointments
 
 ---
 
@@ -175,13 +175,13 @@ Translation: "This patient has a 74% chance of showing up!"
 ## Project Files
 
 ```
-📁 my-project/
-├── 🧠 train_model.py          # Trains the ML model
-├── 🤖 model.pkl               # The trained model (312 MB)
-├── 🌐 app.py                  # The web API
-├── 📦 Dockerfile              # Container recipe
-├── ⚙️ requirements.txt        # Python packages needed
-├── 📁 k8s/
+ my-project/
+├──  train_model.py          # Trains the ML model
+├──  model.pkl               # The trained model (312 MB)
+├──  app.py                  # The web API
+├──  Dockerfile              # Container recipe
+├──  requirements.txt        # Python packages needed
+├──  k8s/
 │   ├── deployment.yaml        # Kubernetes setup
 │   └── service.yaml           # Network setup
 └── 📖 README.md               # You are here!
@@ -223,10 +223,10 @@ kubectl get all
 ```
 
 You should see:
-- ✅ 2 pods running
-- ✅ 1 deployment ready
-- ✅ 1 service active
-- ✅ 1 autoscaler configured
+- 2 pods running
+- 1 deployment ready
+-  1 service active
+- 1 autoscaler configured
 
 **Test the health check:**
 ```bash
@@ -258,26 +258,17 @@ It's like building a self-driving car for your code!
 
 ---
 
-## Author
-
-**Menna Elgamal**
-
-Cloud Computing & Machine Learning Student
 
 ---
 
 ## Status
 
-✅ **All 5 requirements completed!**
 
-- ✅ ML model trained and working
-- ✅ Docker container built and published
-- ✅ Kubernetes deployment running
-- ✅ Health checks keeping it alive
-- ✅ Auto-scaling based on traffic
 
-**This project is production-ready!**
+-  ML model trained and working
+-  Docker container built and published
+-  Kubernetes deployment running
+-  Health checks keeping it alive
+-  Auto-scaling based on traffic
 
----
 
-*Built with ❤️ for my Cloud Computing course*
